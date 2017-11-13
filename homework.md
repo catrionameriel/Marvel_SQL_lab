@@ -27,7 +27,9 @@ SELECT * FROM movies;
 2. Return ONLY the name column from the 'people' table
 SELECT name FROM people;
 3. Oops! Someone at CodeClan spelled Ian's name wrong! Change it to reflect the proper spelling (change 'Iain Henderson' to 'Ian Henderson').
+UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
 4. Return ONLY your name from the 'people' table.
+SELECT * FROM people WHERE name = 'Catriona  Meriel';
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6. Create a new entry in the 'people' table with the name of one of the instructors.
 <!-- 7. Craig Morton, has decided to hijack our movie evening, Remove him from the table of people. -->

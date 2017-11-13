@@ -154,3 +154,4 @@ UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
 
 SELECT * FROM movies;
 SELECT name FROM people;
+SELECT * FROM people WHERE name = 'Catriona  Meriel';

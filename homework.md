@@ -31,7 +31,9 @@ UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
 4. Return ONLY your name from the 'people' table.
 SELECT * FROM people WHERE name = 'Catriona  Meriel';
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+DELETE FROM movies WHERE title = 'Batman Begins';
 6. Create a new entry in the 'people' table with the name of one of the instructors.
+INSERT INTO people (name) VALUES ('Sian');
 <!-- 7. Craig Morton, has decided to hijack our movie evening, Remove him from the table of people. -->
 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.

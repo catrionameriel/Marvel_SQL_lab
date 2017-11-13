@@ -152,13 +152,14 @@ INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
 INSERT INTO people (name) VALUES ('Sian');
 INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 
-UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
-UPDATE people SET name = 'Jeff 4' where id = 21;
-UPDATE people SET name = 'Jeff 5' where id = 22;
+UPDATE people SET name = 'Ian Henderson' WHERE name = 'Iain Henderson';
+UPDATE people SET name = 'Jeff 4' WHERE id = 21;
+UPDATE people SET name = 'Jeff 5' WHERE id = 22;
+UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 
 DELETE FROM movies WHERE title = 'Batman Begins';
 
-SELECT * FROM movies;
+SELECT * FROM movies ORDER BY show_time ASC;
 SELECT * FROM people;
 SELECT name FROM people;
 SELECT * FROM people WHERE name = 'Catriona  Meriel';

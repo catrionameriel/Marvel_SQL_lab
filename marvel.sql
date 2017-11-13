@@ -153,9 +153,12 @@ INSERT INTO people (name) VALUES ('Sian');
 
 
 UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
+UPDATE people SET name = 'Jeff 4' where id = 21;
+UPDATE people SET name = 'Jeff 5' where id = 22;
 
 DELETE FROM movies WHERE title = 'Batman Begins';
 
 SELECT * FROM movies;
+SELECT * FROM people;
 SELECT name FROM people;
 SELECT * FROM people WHERE name = 'Catriona  Meriel';

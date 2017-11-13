@@ -149,5 +149,8 @@ INSERT INTO attendances (person_id, movie_id) VALUES (14, 16);
 INSERT INTO attendances (person_id, movie_id) VALUES (14, 15);
 INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
 
+
+UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
+
 SELECT * FROM movies;
 SELECT name FROM people;

@@ -152,6 +152,8 @@ INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
 
 UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
 
+DELETE FROM movies WHERE title = 'Batman Begins';
+
 SELECT * FROM movies;
 SELECT name FROM people;
 SELECT * FROM people WHERE name = 'Catriona  Meriel';

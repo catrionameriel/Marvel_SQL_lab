@@ -46,3 +46,6 @@ UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
 ## Research
 
 1. Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM table WHERE id IN (?,?,?,?)
+Delete FROM your_table WHERE id BETWEEN bottom_value and top_value;

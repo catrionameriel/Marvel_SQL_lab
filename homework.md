@@ -39,6 +39,7 @@ INSERT INTO people (name) VALUES ('Sian');
 UPDATE people SET name = 'Jeff 4' where id = 21;
 UPDATE people SET name = 'Jeff 5' where id = 22;
 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
 
 ## Research

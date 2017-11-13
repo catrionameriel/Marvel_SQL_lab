@@ -150,7 +150,7 @@ INSERT INTO attendances (person_id, movie_id) VALUES (14, 15);
 INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
 
 INSERT INTO people (name) VALUES ('Sian');
-
+INSERT INTO movies (title, year, show_time) VALUES ('Guardians of the Galaxy 2', 2017, '00:00');
 
 UPDATE people SET name = 'Ian Henderson' where name = 'Iain Henderson';
 UPDATE people SET name = 'Jeff 4' where id = 21;
